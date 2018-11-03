@@ -1,0 +1,15 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<nav th:fragment="menu" class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a th:href="@{~/vv/findAll}">Vorlesungsverschiebungen</a></li>
+        <li><a th:href="@{~/fahrt/findAdmin}">Mensaplan</a></li>   
+        <li><a th:href="@{~/fahrt/findAdmin}">Kaffelocator</a></li>
+        <li><a th:href="@{~/fahrt/findAdmin}">Administration</a></li>        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</html>
