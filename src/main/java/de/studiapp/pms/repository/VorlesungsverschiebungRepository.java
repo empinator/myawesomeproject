@@ -8,6 +8,6 @@ import de.studiapp.pms.model.Vorlesungsverschiebung;
 @Repository
 public interface VorlesungsverschiebungRepository extends CrudRepository<Vorlesungsverschiebung, Long> {
 	
-	Vorlesungsverschiebung findByName(String fach);
+	Vorlesungsverschiebung findByFach(String fach);
 
 }
